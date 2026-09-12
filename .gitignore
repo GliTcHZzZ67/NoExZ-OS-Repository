@@ -1,0 +1,18 @@
+# Pacman repo DB backup files
+*.db.tar.gz.old
+*.files.tar.gz.old
+*.db.old
+*.files.old
+
+# Temp
+*.tmp
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+/dist/
