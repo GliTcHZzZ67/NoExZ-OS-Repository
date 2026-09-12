@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>NoExZOS Repository</title>
-    <style>
-        body { font-family: monospace; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #1a1a1a; color: #d4d4d4; }
-        h1 { color: #50fa7b; }
-        h2 { color: #8be9fd; border-bottom: 1px solid #444; padding-bottom: 8px; }
-        code { background: #2d2d2d; padding: 2px 6px; border-radius: 3px; color: #f1fa8c; }
-        pre { background: #2d2d2d; padding: 15px; border-radius: 5px; overflow-x: auto; }
-        a { color: #8be9fd; }
-    </style>
+<meta charset="UTF-8">
+<title>NoExZOS Repository</title>
+<style>
+body { font-family: monospace; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #1a1a1a; color: #d4d4d4; line-height: 1.6; }
+h1 { color: #50fa7b; }
+h2 { color: #8be9fd; border-bottom: 1px solid #444; padding-bottom: 8px; margin-top: 30px; }
+code { background: #2d2d2d; padding: 2px 6px; border-radius: 3px; color: #f1fa8c; }
+pre { background: #2d2d2d; padding: 15px; border-radius: 5px; overflow-x: auto; }
+a { color: #8be9fd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.badge { display: inline-block; background: #50fa7b; color: #1a1a1a; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: bold; }
+</style>
 </head>
 <body>
-    <h1>🧪 NoExZOS Repository</h1>
-    <p>Official pacman repository for <strong>NoExZOS 1.0 (Sovereign)</strong>.</p>
+<h1>🧪 NoExZOS Repository</h1>
+<p>Official pacman repository for <strong>NoExZOS 1.0 (Sovereign)</strong>.</p>
+<p><span class="badge">v1.0.0</span> <span class="badge">19 packages</span> <span class="badge">GPL-3.0</span></p>
 
-    <h2>Usage</h2>
-    <p>Add to <code>/etc/pacman.conf</code>:</p>
-    <pre>[noexzos]
+<h2>Add Repository</h2>
+<pre>[noexzos]
 SigLevel = Never
-Server = https://glitchzzz67.github.io/noexz-os-repository/$arch</pre>
+Server = https://glitchzzz67.github.io/NoExZ-OS-Repository/$arch</pre>
 
-    <h2>Sync & Install</h2>
-    <pre>sudo pacman -Sy
+<h2>Install Package</h2>
+<pre>sudo pacman -Sy
 sudo pacman -S hello</pre>
 
-    <h2>Packages</h2>
-    <p>Available: 12 packages</p>
-    <ul>
-        <li>curl, file, grep, hello, htop, less</li>
-        <li>libcap, nano, ncurses, sed, tree, which</li>
-    </ul>
+<h2>Install NoExZOS</h2>
+<p>Download rootfs from <a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/releases">Releases</a>.</p>
+<p>See <a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/blob/main/INSTALL.md">INSTALL.md</a>.</p>
 
-    <h2>Links</h2>
-    <ul>
-        <li><a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository">GitHub Repository</a></li>
-        <li><a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/tree/main/x86_64">Package List</a></li>
-    </ul>
+<h2>Packages</h2>
+<ul>
+<li><strong>Base:</strong> bash, coreutils, tar, gzip, xz, bzip2</li>
+<li><strong>Editors:</strong> nano, vim</li>
+<li><strong>Network:</strong> curl, wget</li>
+<li><strong>Utilities:</strong> tree, which, less, file, findutils, diffutils, patch</li>
+<li><strong>System:</strong> htop, ncurses, libcap</li>
+</ul>
 
-    <hr>
-    <p><small>NoExZOS 1.0 (Sovereign) · Built with Linux From Scratch</small></p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository">GitHub</a></li>
+<li><a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/tree/main/x86_64">Package List</a></li>
+<li><a href="https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/issues">Report Bug</a></li>
+</ul>
+
+<hr>
+<p><small>NoExZOS 1.0 (Sovereign) · Built with Linux From Scratch</small></p>
 </body>
 </html>
