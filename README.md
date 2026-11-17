@@ -2,7 +2,7 @@
 
 Official pacman repository + install media for **NoExZOS 1.0 (Sovereign)** — a minimal Linux distribution built from Linux From Scratch.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Add repo to pacman
 
@@ -17,7 +17,7 @@ Edit `/etc/pacman.conf`:
     pacman -Sy
     pacman -S hello
 
-## 📦 Available Packages
+##  Available Packages
 
 19 packages available. See `x86_64/` for full list.
 
@@ -27,13 +27,13 @@ Edit `/etc/pacman.conf`:
 - **Utilities:** tree, which, less, file, findutils, diffutils, patch
 - **System:** htop, ncurses, libcap
 
-## 💾 Install NoExZOS
+##  Install NoExZOS
 
 Download rootfs tarball from [Releases](https://github.com/GliTcHZzZ67/NoExZ-OS-Repository/releases).
 
 See [INSTALL.md](INSTALL.md) for detailed guide.
 
-## 🛠️ For Developers
+##  For Developers
 
 ### Build package from source
 
@@ -49,4 +49,7 @@ See [INSTALL.md](INSTALL.md) for detailed guide.
 
 ## 📜 License
 
+Under
 GPL-3.0
+and tge kernel
+GPL-V2.0
