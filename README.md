@@ -49,7 +49,9 @@ See [INSTALL.md](INSTALL.md) for detailed guide.
 
 ## 📜 License
 
-Under
+The Os Code under:
 GPL-3.0
-and tge kernel
+and the linux kernel:
 GPL-V2.0
+Linux from scratch Lisense:
+Mit License
